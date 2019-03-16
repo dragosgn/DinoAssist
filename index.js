@@ -7,7 +7,11 @@ const port = 3000;
 
 const projectId = "tyrannosalesos";
 
-const answer = await runSampleVoice(projectId);
+const getAnswer = async projectId => {
+  return await runSampleVoice(projectId);
+};
+
+const answer = getAnswer(projectId);
 
 console.log(answer, "answer");
 
