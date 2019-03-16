@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/storage": "^2.4.3",
     "dialogflow": "^0.8.2",
     "express": "^4.16.4",
     "uuid": "^3.3.2"
